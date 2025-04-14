@@ -26,9 +26,5 @@ int main(void){
     //1~b 의 거리 + b~a의 거리 + a~result 
     //둘 중 max 값 고르기 
 
-    link[]
-
-    cout << result; 
-
     return 0;
 }
