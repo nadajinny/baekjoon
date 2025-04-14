@@ -27,6 +27,5 @@ int main(void){
             cout << cnt[a-1]<< ' '<< cnt[a]<<'\n'; 
         }
     }
-
     return 0;
 }
