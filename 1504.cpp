@@ -28,9 +28,6 @@ int main(void){
 
     link[]
 
-
-
-
     cout << result; 
 
     return 0;

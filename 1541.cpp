@@ -49,7 +49,6 @@ int main(void){
     cin.tie(); 
 
     cin >> input; 
-
     cout << search(); 
     
 
