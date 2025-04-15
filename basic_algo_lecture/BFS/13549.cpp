@@ -32,14 +32,12 @@ int main(void){
             time[move] = time[current] + 1; 
         }
 
-
         move = current*2; 
         if(move>=0&&move<=100000&&!visited[move]&&time[move]>=time[current]){
             Q.push(move); 
             visited[move] = true; 
             time[move] = time[current]; 
         }
-
     }
 
     cout << time[m]; 

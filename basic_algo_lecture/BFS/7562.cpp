@@ -45,7 +45,6 @@ int main(void){
                 visited[nx][ny] = true; 
                 cnt[nx][ny] = cnt[current.first][current.second] + 1; 
             }
-
         }
         cout << cnt[dest_x][dest_y]<<'\n'; 
     }  

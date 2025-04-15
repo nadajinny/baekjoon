@@ -3,10 +3,8 @@
 #include <queue> 
 using namespace std; 
 
-
 int n;
 string a[101];
-
 
 void solve(){
     int dir_x[4] = {1,-1,0,0}; 
@@ -40,7 +38,7 @@ void solve(){
                     }
                 }
                 cnt ++; 
-    
+
             }
            if(visited_2[i][j]== false){
                 queue<pair<int,int>> Q; 
@@ -69,14 +67,10 @@ void solve(){
                                 visited_2[next_x][next_y] = true;
                             }
                         }
-
                     }
                 }
                 cnt_2 ++; 
-
            }
-
-
         }
     }
     cout << cnt <<" "<< cnt_2; 
@@ -90,8 +84,6 @@ int main(void){
     for(int i =0;i<n;i++){
         cin >> a[i]; 
     }
-
-
     solve(); 
 
     return 0;
