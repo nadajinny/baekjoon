@@ -39,6 +39,5 @@ int main(void){
     for (int i = 2; i <= n; i++) {
         cout << result[i] << "\n";
     }
-
     return 0;
 }
