@@ -5,7 +5,6 @@ using namespace std;
 
 int m, n, k;
 
-
 void solve(){
     int cabbage[50][50]={0}; 
     cin >> m >> n >> k; 
@@ -55,7 +54,6 @@ int main(void){
     cin >> t; 
 
     for(int i =0;i<t; i++){
-    
         solve(); 
     }
 
