@@ -12,7 +12,6 @@ int main(void){
 
     int n;
     cin >> n;
-
     string input; 
     int m;
     for(int i = 0;i<n;i++){
